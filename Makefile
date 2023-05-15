@@ -11,5 +11,5 @@ run:
 		--entrypoint /bin/bash \
 		auto1111
 
-setup:
-	bash webui.sh -f --listen --xformers
+start:
+	cd /app/stable-diffusion-webui && bash webui.sh -f --listen --xformers
